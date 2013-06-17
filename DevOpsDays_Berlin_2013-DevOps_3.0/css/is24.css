@@ -621,3 +621,15 @@ article {
   top:300px;
   text-align:center;
 }
+
+.navhelp {
+  position:absolute;
+  top:-2em;
+  right:-5em;
+  width:300px;
+  background-color:#e9e1be;
+  font-size:0.7em;
+  padding:.5em;
+  
+
+}
