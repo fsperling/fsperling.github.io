@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>DevOps 3.0 | Berlin DevOpsDays 2013</title>
+
+    <meta name="description" content="Where we are now and what we found out on the way">
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+    <link href="css/basic-animations.css" rel="stylesheet" type="text/css" />
+    <link href="css/is24.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .right {text-align: right;}
+        .small {font-size: 80%;}
+        .service-up {color: #fff; background: #0A0; padding: 0 1em;}
+        .service-down {color: #fff; background: #A00; padding: 0 1em;}
+        .service-ignored {color: #fff; background: #DD0; padding: 0 1em;}
+        .fade *:not(.highlight) {opacity: .2;}
+        .highlight {opacity: 1; font-weight: bold;}
+    </style>
+
+    <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="js/jmpress.all.js"></script>
+
+</head>
+<body>
+<div id="jmpress">
+
+
+<article id="title" class="is24-slide step">
+    <img src="img/DevOpsDays_ohne.png" class="gearsbild"/>
+    <h1>DevOps 3.0</h1>
+    Where we are now and what we found out on the way
+
+   
+    <p class="footer">Felix Sperling, Marcel Wolf<br/>
+    Berlin DevOpsDays 2013 | 27.05.2013</p>
+</article>
+
+<article id="introduction0" class="step" data-x="" data-y="+1000">
+    <h1>Speakers</h1>
+
+    <h2>Marcel Wolf</h2>
+    <ul>
+        <li>Ops Guy</li>
+        <li>Roles: Ops, Dev, Speaker</li>
+        <li>IS24: ~ 1 1/2 Years</li>
+        <li>Application Manager</li>
+        <li>4 Month as System Developer</li>
+     </ul>
+</article>
+
+<article id="introduction1" class="step" data-x="" data-y="+2000">
+    <h1>Speakers</h1>
+
+    <h2>Felix Sperling, @felixsperling</h2>
+    <ul>
+        <li>a Developer</li>
+	<li>past: embedded systems, low-level C/C++</li>
+	<li>now: Java developer @ IS24</li>
+	<li>2 months in Ops</li>
+    </ul>
+</article>
+
+<article id="introduction2" class="step" data-x="" data-y="+2000">
+    <h1>Speakers</h1>
+
+    <h2>Felix Sperling, @felixsperling</h2>
+    <ul>
+        <li>a Developer</li>
+	<li>past: embedded systems, low-level C/C++</li>
+	<li>now: Java developer @ IS24</li>
+	<li>2 months in Ops</li>
+    </ul>
+    <br>
+    <h2>Application Management team</h2>
+    <ul>
+        <li>Interface between Dev and Ops</li>
+	<li>new applications are made production-ready</li>
+    </ul>
+</article>
+
+
+<article id="is24" class="step" data-y="+3000">
+    <div class="box footer">
+    <h2>Immobilienscout 24</h2>
+    <p>Germanys largest internet real estate marketplace</p>
+    </div>
+    <img src="img/immobilienscout.jpg" class="bild"/>
+</article>
+
+
+<article id="Overview" class="step" data-y="+3000">
+    <div class="box footer">
+    <h2>Overview of Organisation</h2>
+    <ul>
+      <li>2 billion PI per month, 10 million unique visitors</li>
+      <li>~ 1500 servers</li>
+      <li>~ 40 Ops and ~ 150 Devs</li>
+    </ul>
+    </div>
+    <img src="img/immobilienscout.jpg" class="bild"/>
+</article>
+
+<article id="difficulty" class="step" data-y="+3000">
+    <div class="box footer">
+    <h2>Difficulty Level</h2>
+    <ul>
+      <li style="list-style-type:none">Easy</li>
+      <li style="list-style-type:none">Normal</li>
+      <li style="color:red">Hard</li>
+      <li style="list-style-type:none">Insane</li>
+    </ul>
+    </div>
+    <img src="img/immobilienscout.jpg" class="bild"/>
+</article>
+
+<!-- end intro -->
+
+<article id="chapterx" data-x="+4000" data-y="+1000" class="step">
+    <h1 class="middle">Culture when starting DevOps</h1>
+</article>
+
+<article id="devopsmessage" data-x="+4000" data-y="+2000" class="step">
+    <div class="middle">
+    <h2>DevOps message:</h2>
+    <h1>Work together and talk to each other</h1>
+    </div>
+</article>
+
+<article id="prejudices" data-x="+4000" data-y="+3000" class="step">
+    <h1 class="middle">prejudices hinder cooperation</h1>
+</article>
+
+<article id="overcomethem" data-x="+4000" data-y="+4000" class="step">
+    <h2 class="middle">Best way to overcome prejudices about a group <br/>
+	is to get to know someone of that group</h2>
+</article>
+
+<article id="permissions" data-x="+6000" data-y="+1000" class="step">
+    <div class="box footer">
+    <h2>I was offered prod permissions</h2>
+    </div>
+    <img src="img/keys.jpg" class="bild"/>
+    <p class="copyright">http://www.flickr.com/photos/practicalowl/256628505/sizes/o/in/photostream/</p>
+</article>
+
+<article id="trust1" data-x="+6000" data-y="+2000" class="step">
+    <div class="box footer">
+    <h2 style="padding-right:1em; padding-left:1em;">Trust </h2>
+    </div>
+    <img src="img/knivethrower.jpg" class="bild"/>
+    <p class="copyright">http://www.flickr.com/photos/taylorhorne/4703686872/</p>
+</article>
+
+<article id="trust2" data-x="+6000" data-y="+2000" class="step">
+    <div class="box footer">
+    <h2>Trust</h2>
+    <h2>Working together creates trust</h2>
+    </div>
+    <img src="img/knivethrower.jpg" class="bild"/>
+    <p class="copyright">http://www.flickr.com/photos/taylorhorne/4703686872/</p>
+</article>
+
+
+<article id="incidents" data-x="+6000" data-y="+3000" class="step">
+    <h2 class="box footer">Incident meetings</h2>
+    <img src="img/firealarm.jpg" class="bild"/>
+    <p class="copyright">http://www.flickr.com/photos/jimnix/4773270372/sizes/o/in/photostream/</p>
+</article>
+
+<article id="errorculture" data-x="+6000" data-y="+4000" class="step">
+    <div class="box footer">
+    <h2>right error culture</h2>
+    <h2>encourage learning and making mistakes</h2>
+    </div>
+    <img src="img/pranger.jpg" class="bild"/>
+    <p class="copyright">http://www.flickr.com/photos/xdreck/6113165674/sizes/o/</p>
+</article>
+
+<!-- devops things -->
+
+<article id="DevOpsthings" class="step" data-x="+8000" data-y="+1000">
+    <h1 class="middle">DevOps things we do</h1>
+</article>
+
+<article id="config" class="step" data-x="+8000" data-y="+2000">
+    <div class="box footer">
+    <h2>Server configuration</h2>
+    </div>
+</article>
+
+<article id="config2" class="step" data-x="+8000" data-y="+2000">
+    <div class="box footer">
+    <h2>Server configuration</h2>
+    <h2 style="color:red">everybody can change it</h2>
+    </div>
+    <img src="img/wikipedia.png" class="bild"/>
+</article>
+
+
+<article id="selfservice" class="step" data-x="+8000" data-y="+3000">
+    <h2 class="box footer">self-service virtualization</h2>
+    <img src="img/selfserviceairport.png" class="bild"/>
+    <p class="copyright">http://www.flickr.com/photos/reservasdecoches/3199872487/sizes/l/in/photostream/</p>
+</article>
+
+<article id="devam" data-x="+8000" data-y="+4000" class="step">
+    <div class="middle">
+    <h1>Dev-AM-Rotation</h1>
+    <p>the idea</p>
+    </div>
+</article>
+
+<article id="devam2" data-x="+8000" data-y="+5000" class="step">
+    <h1 class="middle">It makes Devs better Devs</h1>
+</article>
+
+<article id="devam3" data-x="+8000" data-y="+6000" class="step">
+    <h1 class="middle">It makes Ops better Ops</h1>
+</article>
+
+
+<div id="viewsleft" class="step" data-x="-5000" data-y="-4000" data-scale="4"
+        data-rotate-x="-90" data-rotate-y="90" data-rotate-z="90"
+        style="z-index: 2000;">
+        <div data-jmpress="fade after 1s step">
+   <div class="middle">
+    <h2>Changing roles: now the Ops part</h2>
+        </div>
+   </div>
+</div>
+
+<article id="1" class="step" data-x="" data-y="-3000">
+    <div class="middle">
+    <h2>Why you want to work as System Developer?</h2>
+    </div>
+</article>
+
+<article id="2" class="step" data-x="2000" data-y="-3000">
+    <div class="middle">
+    <h2>Not enough work?</h2>
+    </div>
+</article>
+
+<article id="3" class="step" data-x="4000" data-y="-3000">
+    <div class="middle">
+    <h2>Do you want to hide from a project?</h2>
+    </div>
+</article>
+
+<article id="4" class="step" data-x="6000" data-y="-3000">
+        <img src="img/fedexday.jpg" class="bild"/>
+        <p class="copyright">http://smallestforest.files.wordpress.com/</p>
+</article>
+
+<article id="6" class="step" data-x="6000" data-y="-5000">
+    <div class="middle">
+    <h2>Now the hardest part, i have to ask the boss</h2>
+    </div>
+</article>
+
+<article id="5" class="step" data-x="4000" data-y="-5000">
+    <h2 class="box footer">"i'd like to move to another team for 4 month"</h2>
+    <img src="img/facepalm.jpg" class="bild"/>
+
+<article id="reactionofboss" class="step" data-x="2000" data-y="-5000">
+    <h2 class="box footer">reaction of your Boss?</h2>
+    <img src="img/facepalm.jpg" class="bild"/>
+</article>
+
+<article id="slowdown" class="step" data-x="" data-y="-5000">
+    <div class="middle">
+    <h2>cool just do it!</h2>
+    </div>
+</article>
+
+<article id="doit" class="step" data-x="-2000" data-y="-5000">
+    <div class="middle">
+    <h2>I don't want to slow down the team</h2>
+    </div>
+</article>
+
+<article id="win" class="step" data-x="-4000" data-y="-5000">
+    <h2 class="box footer">we speeded up!</h2>
+    <img src="img/success.jpg" class="bild"/>
+    <p class="copyright">Sacha Baron Cohen</p>
+</article>
+
+<article id="hardestpart" class="step" data-x="-6000" data-y="-5000">
+    <div class="middle">
+    <h2>The hardest part</h2>
+    </div>
+</article>
+
+
+<article id="rotationgreat" class="step" data-x="-6000" data-y="-7000">
+    <div class="box footer">
+    <h2>OPS/DEV Rotation</h2>
+    </div>
+    <img src="img/devopsborat.jpg" class="bild"/>
+    <p class="copyright"></p>
+
+</article>
+
+<div id="changelles" class="step" data-x="-4000" data-y="-7000" data-scale="4"
+    data-rotate-x="-90" data-rotate-y="90" data-rotate-z="90"
+    style="z-index: 2000;">
+    <div data-jmpress="fade after 1s step">
+        <div class="middle">
+        <h2>Challenges</h2>
+        </div>
+    </div>
+
+</div>
+
+<article id="14" class="step" data-x="-2000" data-y="-7000">
+<div class="box footer">
+    <h2>How to Get People to Work Together?</h2>
+    </div>
+    <img src="img/together.jpg" class="bild"/>
+    <p class="copyright">http://www.sxc.hu/photo/1395557</p>
+</article>
+
+<article id="15" class="step" data-x="" data-y="-7000">
+    <div class="middle">
+    <h2>strange question</h2>
+    </div>
+</article>
+
+<article id="16" class="step" data-x="2000" data-y="-7000">
+    <div class="middle">
+    <h2>one example: methods and mindsets</h2>
+    </div>
+</article>
+
+<article id="17" class="step" data-x="4000" data-y="-7000">
+    <div class="middle">
+    <h2>Management 1.0</h2>
+    </div>
+</article>
+
+<article id="18" class="step" data-x="6000" data-y="-7000">
+    <h2 class="box footer">Operating system is windows :(</h2>
+    <img src="img/facepalm.jpg" class="bild"/>
+</article>
+
+<article id="20" class="step" data-x="6000" data-y="-9000">
+    <div class="middle">
+    <h2>hard to work together</h2>
+    </div>
+</article>
+
+<article id="21" class="step" data-x="4000" data-y="-9000">
+    <div class="middle">
+    <h2>we are flexible enough to handle that,
+        we are agile!</h2>
+    </div>
+</article>
+
+<article id="22" class="step" data-x="2000" data-y="-9000">
+    <div class="middle">
+    <h2>which kind of process do you need?</h2>
+    </div>
+</article>
+
+<article id="23" class="step" data-x="" data-y="-9000">
+    <div class="middle">
+    <h2>can we support you?</h2>
+    </div>
+</article>
+
+<article id="24" class="step" data-x="" data-y="-11000">
+    <div class="middle">
+    <h2>generated success - win!</h2>
+    </div>
+</article>
+
+<article id="25" class="step" data-x="2000" data-y="-11000">
+    <h2>„social complexity shows us that management is primarily about people and their relationship,
+        not about departments and profits“</h2>
+    <div class="footer">
+        Jurgen Appelo, Management 3.0
+    </div>
+</article>
+
+<article id="26" class="step" data-x="2000" data-y="-11000">
+    <div class="middle">
+    <h2>one example: social complexity</h2>
+    </div>
+</article>
+
+<article id="27" class="step" data-x="4000" data-y="-11000">
+    <div class="middle">
+    <h2>how to work together</h2>
+    </div>
+</article>
+
+<article id="28" class="step" data-x="6000" data-y="-11000">
+    <div class="middle">
+    <h2>needed top down decisions</h2>
+    </div>
+</article>
+
+<article id="29" class="step" data-x="8000" data-y="-11000">
+    <div class="middle">
+    <h2>unfasten rules</h2>
+    </div>
+</article>
+
+<article id="30" class="step" data-x="10000" data-y="-11000">
+    <div class="middle">
+    <h2>tested vs. testdriven</h2>
+    </div>
+</article>
+
+<article id="31" class="step" data-x="10000" data-y="-13000">
+    <div class="middle">
+    <h2>"Individuals and interactions over processes and tools"</h2>
+    </div>
+    <div class="footer">
+        <h3>agile manifesto</h3>
+    </div>
+</article>
+
+<article id="thanks" class="step is24-slide" data-x="-8000" data-y="-10000" >
+	    <img src="img/DevOpsDays_ohne.png" class="gearsbild"/>
+            <h1 style="text-align: center;">Thank you for your attention.</h1>
+	    <br><h1 style="text-align: center;">Questions!</h1>
+            <p class="footer">
+                http://www.immobilienscout24.de/<br/>
+                felix.sperling@immobilienscout24.de<br/>
+                marcel.wolf@immobilienscout24.de<br/>
+            </p>
+
+</article>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	$('#jmpress .linebyline li').attr("data-jmpress", "appear after 500ms prev");
+	$('#jmpress').jmpress();
+});
+</script>
+
+</body>
+</html>
