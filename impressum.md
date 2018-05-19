@@ -5,11 +5,10 @@ title: Impressum
 
 Angaben gem&auml;&szlig; &sect; 5 TMG  
 Felix Sperling  
-Hallandstr. 20  
-13189 Berlin  
+Baerwaldstr. 53  
+10961 Berlin  
 
 ## Kontakt
-Telefon: 23131212  
 E-Mail: <a href="&#109;a&#105;l&#116;&#111;:&#102;&#46;&#115;&#112;&#101;&#114;&#108;&#105;&#110;&#103;&#64;&#103;&#109;&#120;&#46;&#100;&#101;">&#102;&#46;&#115;&#112;&#101;&#114;&#108;&#105;&#110;&#103;&#64;&#103;&#109;&#120;&#46;&#100;&#101;</a>  
 Internetadresse: <a href="http://www.fsperling.de" target="_blank">http://www.fsperling.de</a>
 
